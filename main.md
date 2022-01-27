@@ -20,6 +20,12 @@ https://github.com/kimch963/test1/blob/main/pygame.py
 게임 실행 화면  
 게임 결과 화면  
 
+## 1.5 보완해야 할 점
+시간의 부족으로 인해 캐릭터 별 상이한 기능을 구현하지 못함  
+class 개념을 제대로 숙지하지 못해 다수의 미사일을 구현하는데 많은 시간이 소요됨
+
+
+
 # 2. 머신러닝을 이용한 당뇨병 진단
 ![자연어처리-003](https://user-images.githubusercontent.com/94778681/151276614-9073d572-2259-45a8-88db-a26c53483b6a.jpg)
 
@@ -35,6 +41,9 @@ https://github.com/kimch963/portfolio/blob/main/diabetes_homework.ipynb
 
 인공신경망 학습  
 학습된 인공신경망으로 8개의 피쳐 데이터 입력시 암 진단 예측값 제공
+
+## 2.5 보완해야 할 점
+데이터의 개수가 약 800개 정도로 적어 더 많은 데이터의 필요성
 
 # 3. LSTM을 이용한 비트코인 실시간 예측
 ![자연어처리-001 (1)](https://user-images.githubusercontent.com/94778681/151271099-c755a3d4-9144-418f-8b4b-987bfebbb715.jpg)
@@ -55,6 +64,8 @@ https://github.com/kimch963/portfolio/blob/main/bitcoin_LSTM.ipynb
 과거 비트코인 데이터를 인공신경망에 학습  
 학습된 신경망을 활용해 다음 1분의 종가 예측
 
+## 3.5 보완해야 할 점
+
 # 4. 자연어 처리를 이용한 청소기 리뷰 감성분석
 ![image](https://user-images.githubusercontent.com/94778681/151272847-08bb7e55-8244-4206-8b8e-ffc303a193dc.png)
 
@@ -74,3 +85,5 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 리뷰 분석을 통한 감성분석  
 등장 단어 빈도수를 기반으로 한 감성 점수화  
 리뷰 워드클라우드화 및 모델별 점수 
+
+## 4.5 보완해야 할 점
