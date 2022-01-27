@@ -93,8 +93,12 @@ https://github.com/kimch963/portfolio/blob/main/bitcoin_LSTM.ipynb
 ## 3.6 결과
 ![image](https://user-images.githubusercontent.com/94778681/151298775-5ae4b33b-055a-404e-9980-a2ebafbbddc6.png)
 ![image](https://user-images.githubusercontent.com/94778681/151298848-a32a994c-b7a3-4f48-a578-af00e9dcbee9.png)
+![비트코인 1](https://user-images.githubusercontent.com/94778681/151320605-3c8277f4-7010-420c-8373-4d6bf977580c.PNG)
 
-
+LSTM모델이 전체적인 추이를 굉장히 정확하게 예측하고 있음을 확인할 수 있습니다.  
+loss가 거의 0에 근접한 좋은 학습모델임을 확인할 수 있습니다.  
+과거 30분간의 시세 데이터를 통해 다음 1분의 종가를 예측했을 때 상당히 유사함을 확인할 수 있습니다.  
+ 
 
 ## 3.7 보완해야 할 점
 정규화 과정에서 이상치가 있는지 확인하는 과정을 추가해 이상치를 제거해야 함  
@@ -127,6 +131,9 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 <img src="https://user-images.githubusercontent.com/94778681/151299068-d8030ed7-5cfa-4e48-ad7f-7f26f3739019.png" width="600" height="700"/>
 <img src="https://user-images.githubusercontent.com/94778681/151299098-adcfca22-69e6-4f7e-8fba-6915ef84203c.png" width="600" height="700"/>
 
+리뷰 단어 워드클라우드를 통해 저희가 추출한 감성사전의 키워드가 많이 등장함을 확인할 수 있었습니다.  
+단어별 빈도수를 통해 각 키워드 별 가중치를 부여하고 이에 따라 모델별 점수화를 통해 청소기 구매자의 구매 판단에 도움을 줄 수 있음을 확인할 수 있습니다.
+선호하는 제조사가 있다면 제조사별 점수 또한 시각화하여 도움을 줄 수 있습니다.
 ## 4.6 보완해야 할 점
 자연어 처리 라이브러리를 사용했을 때 너무 오랜 시간이 걸려 데이터 양을 크게 하지 못한 점  
 협업 도구(GitHub, Colab) 의 사용 방법을 익혀 불필요한 시간 낭비를 줄여야 함
