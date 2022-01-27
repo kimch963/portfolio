@@ -57,8 +57,8 @@ https://github.com/kimch963/portfolio/blob/main/diabetes_homework.ipynb
 
 
 ## 2.6 보완해야 할 점
-데이터의 개수가 약 800개 정도로 적어 더 많은 데이터의 필요성
-다양한 방법으로 신경망을 제작하여 정확도를 상승시키는 방법의 필
+데이터의 개수가 약 800개 정도로 적어 더 많은 데이터의 필요성  
+다양한 방법으로 신경망을 제작하여 정확도를 상승시키는 방법의 필요성
 
 ***
 ---
@@ -123,5 +123,5 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 <img src="https://user-images.githubusercontent.com/94778681/151299098-adcfca22-69e6-4f7e-8fba-6915ef84203c.png" width="600" height="700"/>
 
 ## 4.6 보완해야 할 점
-자연어 처리 라이브러리를 사용했을 때 너무 오랜 시간이 걸려 데이터 양을 크게 하지 못한 점
+자연어 처리 라이브러리를 사용했을 때 너무 오랜 시간이 걸려 데이터 양을 크게 하지 못한 점  
 협업 도구(GitHub, Colab) 의 사용 방법을 익혀 불필요한 시간 낭비를 줄여야 함
