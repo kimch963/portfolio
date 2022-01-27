@@ -22,6 +22,7 @@ Jupyter Lab, Python 3.8 ,Tensorflow 2.7 , Pandas, Numpy
 ## 2.2 개발 일정
 22.1.5 ~ 22.1.6 구조 파악 및 신경망 제작  
 22.1.7 에러해결 및 발표
+## 2.3 코드
 
 # 3. LSTM을 이용한 비트코인 실시간 예측
 ![자연어처리-001 (1)](https://user-images.githubusercontent.com/94778681/151271099-c755a3d4-9144-418f-8b4b-987bfebbb715.jpg)
@@ -32,7 +33,8 @@ Colab, python 3.8, tensorflow 2.7, Numpy, Pandas, PyUpbit, Scikit-learn
 22.1.3 주제 선정 및 계획  
 22.1.4 데이터 수집, 전처리, 모델구성  
 22.1.5 ~ 22.1.6 모델 개선, 시각화  
-1.7 결과 정리 및 발표  
+1.7 결과 정리 및 발표 
+## 3.3 코드
 
 # 4. 자연어 처리를 이용한 청소기 리뷰 감성분석
 ![image](https://user-images.githubusercontent.com/94778681/151272847-08bb7e55-8244-4206-8b8e-ffc303a193dc.png)
@@ -45,3 +47,5 @@ Colab, python 3.8, tensorflow 2.7, Numpy, Selenium, BeautifulSoup, Konlpy, Githu
 22.1.11 데이터 전처리  
 22.1.12 감성사전 제작 및 감성분석  
 22.1.13 에러 해결, 점수화 및 시각화  
+
+## 4.3 
