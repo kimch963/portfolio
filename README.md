@@ -11,7 +11,8 @@
 21.12.6 ~ 21.12.7 에러 해결 및 보완점 해결  
 21.12.8 ~ 21.12.10 마무리 작업 및 발표
 
-## 1.3 프롲ㄱ
+## 1.3 코드
+https://github.com/kimch963/test1/blob/main/pygame.py
 
 # 2. 머신러닝을 이용한 당뇨병 진단
 ![자연어처리-003](https://user-images.githubusercontent.com/94778681/151276614-9073d572-2259-45a8-88db-a26c53483b6a.jpg)
