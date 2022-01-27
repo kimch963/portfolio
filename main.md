@@ -15,6 +15,7 @@
 https://github.com/kimch963/test1/blob/main/pygame.py
 
 ## 1.4 구현 기능
+
 메인화면(시작, 나가기, 도움말, 시나리오)  
 게임캐릭터 선택 기능  
 게임 실행 화면  
@@ -40,6 +41,7 @@ class 개념을 제대로 숙지하지 못해 다수의 미사일을 구현하�
 
 ## 2.1 사용 기술
 Jupyter Lab, Python 3.8 ,Tensorflow 2.7 , Pandas, Numpy 
+
 ## 2.2 개발 일정
 22.1.5 ~ 22.1.6 구조 파악 및 신경망 제작  
 22.1.7 에러해결 및 발표
@@ -48,14 +50,16 @@ Jupyter Lab, Python 3.8 ,Tensorflow 2.7 , Pandas, Numpy
 https://github.com/kimch963/portfolio/blob/main/diabetes_homework.ipynb
 
 ## 2.4 구현 기능
-
-인공신경망 학습  
+LSTM 인공신경망 학습  
 학습된 인공신경망으로 8개의 피쳐 데이터 입력시 암 진단 예측값 제공
 
 ## 2.5 결과
-![암 1](https://user-images.githubusercontent.com/94778681/151297258-3bf9bc29-b0e1-445c-a177-3b534a95fba2.PNG)
-![암 2](https://user-images.githubusercontent.com/94778681/151297266-9cceba85-9d37-4d7e-ab63-27e72a5f900a.PNG)
 
+![암 1](https://user-images.githubusercontent.com/94778681/151297258-3bf9bc29-b0e1-445c-a177-3b534a95fba2.PNG)  
+![암 2](https://user-images.githubusercontent.com/94778681/151297266-9cceba85-9d37-4d7e-ab63-27e72a5f900a.PNG)  
+
+전체적으로는 loss가 줄어들지만 일관되게 줄어들지는 않는 것을 확인할 수 있다.  
+약 0.8 정도의 정확도를 보임을 확인할 수 있다.  
 
 ## 2.6 보완해야 할 점
 데이터의 개수가 약 800개 정도로 적어 더 많은 데이터의 필요성  
@@ -74,7 +78,7 @@ Colab, python 3.8, tensorflow 2.7, Numpy, Pandas, PyUpbit, Scikit-learn
 22.1.3 주제 선정 및 계획  
 22.1.4 데이터 수집, 전처리, 모델구성  
 22.1.5 ~ 22.1.6 모델 개선, 시각화  
-1.7 결과 정리 및 발표 
+22.1.7 결과 정리 및 발표 
 
 ## 3.3 코드
 https://github.com/kimch963/portfolio/blob/main/bitcoin_LSTM.ipynb
@@ -88,8 +92,9 @@ https://github.com/kimch963/portfolio/blob/main/bitcoin_LSTM.ipynb
 
 ## 3.6 결과
 ![image](https://user-images.githubusercontent.com/94778681/151298775-5ae4b33b-055a-404e-9980-a2ebafbbddc6.png)
-![image](https://user-images.githubusercontent.com/94778681/151298832-01d43531-18af-4e05-b994-7adaef7934cc.png)
 ![image](https://user-images.githubusercontent.com/94778681/151298848-a32a994c-b7a3-4f48-a578-af00e9dcbee9.png)
+
+
 
 ## 3.7 보완해야 할 점
 정규화 과정에서 이상치가 있는지 확인하는 과정을 추가해 이상치를 제거해야 함  
@@ -118,7 +123,6 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 리뷰 워드클라우드화 및 모델별 점수 
 
 ## 4.5 결과 
-
 <img src="https://user-images.githubusercontent.com/94778681/151299047-96308dad-5cb6-4d7a-9e81-e01ebd67b191.png" width="600" height="700"/>
 <img src="https://user-images.githubusercontent.com/94778681/151299068-d8030ed7-5cfa-4e48-ad7f-7f26f3739019.png" width="600" height="700"/>
 <img src="https://user-images.githubusercontent.com/94778681/151299098-adcfca22-69e6-4f7e-8fba-6915ef84203c.png" width="600" height="700"/>
