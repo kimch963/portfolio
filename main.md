@@ -33,7 +33,7 @@ https://github.com/kimch963/portfolio/blob/main/diabetes_homework.ipynb
 
 ## 2.4 구현 기능
 
-인공신경망 학습 
+인공신경망 학습  
 학습된 인공신경망으로 8개의 피쳐 데이터 입력시 암 진단 예측값 제공
 
 # 3. LSTM을 이용한 비트코인 실시간 예측
@@ -47,9 +47,13 @@ Colab, python 3.8, tensorflow 2.7, Numpy, Pandas, PyUpbit, Scikit-learn
 22.1.4 데이터 수집, 전처리, 모델구성  
 22.1.5 ~ 22.1.6 모델 개선, 시각화  
 1.7 결과 정리 및 발표 
+
 ## 3.3 코드
 https://github.com/kimch963/portfolio/blob/main/bitcoin_LSTM.ipynb
-## 3.4 보완점
+
+## 3.4 구현 기능
+과거 비트코인 데이터를 인공신경망에 학습  
+학습된 신경망을 활용해 다음 1분의 종가 예측
 
 # 4. 자연어 처리를 이용한 청소기 리뷰 감성분석
 ![image](https://user-images.githubusercontent.com/94778681/151272847-08bb7e55-8244-4206-8b8e-ffc303a193dc.png)
@@ -66,4 +70,7 @@ Colab, python 3.8, tensorflow 2.7, Numpy, Selenium, BeautifulSoup, Konlpy, Githu
 ## 4.3 코드
 https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_processing.ipynb
 
-## 4.4 보완점
+## 4.4 구현 기능
+리뷰 분석을 통한 감성분석  
+등장 단어 빈도수를 기반으로 한 감성 점수화  
+리뷰 워드클라우드화 및 모델별 점수 
