@@ -20,6 +20,7 @@ https://github.com/kimch963/test1/blob/main/pygame.py
 게임 실행 화면  
 게임 결과 화면  
 
+## 1.
 ## 1.5 결과
 ![슈팅1](https://user-images.githubusercontent.com/94778681/151296510-e10e2714-51e1-4b24-9887-59392a5778bc.PNG)
 ![슈팅2](https://user-images.githubusercontent.com/94778681/151296516-0dc76422-32fd-422f-a340-e65802bb8d49.PNG)
