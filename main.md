@@ -14,6 +14,12 @@
 ## 1.3 코드
 https://github.com/kimch963/test1/blob/main/pygame.py
 
+## 1.4 구현 기능
+메인화면(시작, 나가기, 도움말, 시나리오)  
+게임캐릭터 선택 기능  
+게임 실행 화면  
+게임 결과 화면  
+
 # 2. 머신러닝을 이용한 당뇨병 진단
 ![자연어처리-003](https://user-images.githubusercontent.com/94778681/151276614-9073d572-2259-45a8-88db-a26c53483b6a.jpg)
 
@@ -25,11 +31,17 @@ Jupyter Lab, Python 3.8 ,Tensorflow 2.7 , Pandas, Numpy
 ## 2.3 코드
 https://github.com/kimch963/portfolio/blob/main/diabetes_homework.ipynb
 
+## 2.4 구현 기능
+
+인공신경망 학습 
+학습된 인공신경망으로 8개의 피쳐 데이터 입력시 암 진단 예측값 제공
+
 # 3. LSTM을 이용한 비트코인 실시간 예측
 ![자연어처리-001 (1)](https://user-images.githubusercontent.com/94778681/151271099-c755a3d4-9144-418f-8b4b-987bfebbb715.jpg)
 
 ## 3.1 사용 기술
 Colab, python 3.8, tensorflow 2.7, Numpy, Pandas, PyUpbit, Scikit-learn
+
 ## 3.2 개발 일정
 22.1.3 주제 선정 및 계획  
 22.1.4 데이터 수집, 전처리, 모델구성  
@@ -37,6 +49,7 @@ Colab, python 3.8, tensorflow 2.7, Numpy, Pandas, PyUpbit, Scikit-learn
 1.7 결과 정리 및 발표 
 ## 3.3 코드
 https://github.com/kimch963/portfolio/blob/main/bitcoin_LSTM.ipynb
+## 3.4 보완점
 
 # 4. 자연어 처리를 이용한 청소기 리뷰 감성분석
 ![image](https://user-images.githubusercontent.com/94778681/151272847-08bb7e55-8244-4206-8b8e-ffc303a193dc.png)
@@ -52,3 +65,5 @@ Colab, python 3.8, tensorflow 2.7, Numpy, Selenium, BeautifulSoup, Konlpy, Githu
 
 ## 4.3 코드
 https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_processing.ipynb
+
+## 4.4 보완점
