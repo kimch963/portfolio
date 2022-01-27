@@ -58,6 +58,7 @@ https://github.com/kimch963/portfolio/blob/main/diabetes_homework.ipynb
 
 ## 2.6 보완해야 할 점
 데이터의 개수가 약 800개 정도로 적어 더 많은 데이터의 필요성
+다양한 방법으로 신경망을 제작하여 정확도를 상승시키는 방법의 필
 
 ***
 ---
@@ -81,12 +82,15 @@ https://github.com/kimch963/portfolio/blob/main/bitcoin_LSTM.ipynb
 과거 비트코인 데이터를 인공신경망에 학습  
 학습된 신경망을 활용해 다음 1분의 종가 예측
 
-## 3.5 결과
+## 3.5 LSTM을 사용한 이유
+과거의 데이터를 이용하여 미래의 데이터를 예측하는 프로젝트의 특성상, 루프가 들어있고 과거의 데이터가 미래에 영향을 줄 수 있는 RNN 알고리즘중 LSTM을 사용해야 한다고 생각했습니다.
+
+## 3.6 결과
 ![image](https://user-images.githubusercontent.com/94778681/151298775-5ae4b33b-055a-404e-9980-a2ebafbbddc6.png)
 ![image](https://user-images.githubusercontent.com/94778681/151298832-01d43531-18af-4e05-b994-7adaef7934cc.png)
 ![image](https://user-images.githubusercontent.com/94778681/151298848-a32a994c-b7a3-4f48-a578-af00e9dcbee9.png)
 
-## 3.6 보완해야 할 점
+## 3.7 보완해야 할 점
 정규화 과정에서 이상치가 있는지 확인하는 과정을 추가해 이상치를 제거해야 함  
 학습 결과와 테스트 예측치가 너무 이상적으로 부합하는 이유를 찾지 못했음
 ***
@@ -114,9 +118,9 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 
 ## 4.5 결과 
 
-<img src="https://user-images.githubusercontent.com/94778681/151299047-96308dad-5cb6-4d7a-9e81-e01ebd67b191.png" width="600" height="800"/>
-<img src="https://user-images.githubusercontent.com/94778681/151299068-d8030ed7-5cfa-4e48-ad7f-7f26f3739019.png" width="600" height="800"/>
-<img src="https://user-images.githubusercontent.com/94778681/151299098-adcfca22-69e6-4f7e-8fba-6915ef84203c.png" width="600" height="800"/>
+<img src="https://user-images.githubusercontent.com/94778681/151299047-96308dad-5cb6-4d7a-9e81-e01ebd67b191.png" width="600" height="700"/>
+<img src="https://user-images.githubusercontent.com/94778681/151299068-d8030ed7-5cfa-4e48-ad7f-7f26f3739019.png" width="600" height="700"/>
+<img src="https://user-images.githubusercontent.com/94778681/151299098-adcfca22-69e6-4f7e-8fba-6915ef84203c.png" width="600" height="700"/>
 
 ## 4.6 보완해야 할 점
 자연어 처리 라이브러리를 사용했을 때 너무 오랜 시간이 걸려 데이터 양을 크게 하지 못한 점
