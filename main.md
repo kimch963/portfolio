@@ -50,4 +50,5 @@ Colab, python 3.8, tensorflow 2.7, Numpy, Selenium, BeautifulSoup, Konlpy, Githu
 22.1.12 감성사전 제작 및 감성분석  
 22.1.13 에러 해결, 점수화 및 시각화  
 
-## 4.3 
+## 4.3 코드
+https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_processing.ipynb
