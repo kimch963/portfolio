@@ -21,15 +21,20 @@ https://github.com/kimch963/test1/blob/main/pygame.py
 게임 실행 화면  
 게임 결과 화면  
 
+## 1.5 담당업무
+캐릭터 움직이게 하기  
+점수에 따라 음식 속도 조절  
+음식 랜덤으로 떨어지게 하기  
+효과음, 배경음악 삽입
 
-## 1.5 결과
+## 1.6 결과
 ![슈팅1](https://user-images.githubusercontent.com/94778681/151296510-e10e2714-51e1-4b24-9887-59392a5778bc.PNG)
 ![슈팅2](https://user-images.githubusercontent.com/94778681/151296516-0dc76422-32fd-422f-a340-e65802bb8d49.PNG)
 ![슈팅3](https://user-images.githubusercontent.com/94778681/151296517-5089eb3f-2ecc-45ee-b075-a84e60f2e64d.PNG)
 ![슈팅4](https://user-images.githubusercontent.com/94778681/151296526-5aab9ace-0ff4-4ed6-b26b-1cdcd23bae09.PNG)
 
 
-## 1.6 보완해야 할 점
+## 1.7 보완해야 할 점
 시간의 부족으로 인해 캐릭터 별 상이한 기능을 구현하지 못함  
 class 개념을 제대로 숙지하지 못해 다수의 미사일을 구현하는데 많은 시간이 소요됨
 
@@ -52,6 +57,7 @@ https://github.com/kimch963/portfolio/blob/main/diabetes_homework.ipynb
 ## 2.4 구현 기능
 LSTM 인공신경망 학습  
 학습된 인공신경망으로 8개의 피쳐 데이터 입력시 암 진단 예측값 제공
+
 
 ## 2.5 결과
 
@@ -87,10 +93,14 @@ https://github.com/kimch963/portfolio/blob/main/bitcoin_LSTM.ipynb
 과거 비트코인 데이터를 인공신경망에 학습  
 학습된 신경망을 활용해 다음 1분의 종가 예측
 
-## 3.5 LSTM을 사용한 이유
+## 3.5 담당업무
+30분 간의 데이터로 미래 종가 예측
+시각화
+
+## 3.6 LSTM을 사용한 이유
 과거의 데이터를 이용하여 미래의 데이터를 예측하는 프로젝트의 특성상, 루프가 들어있고 과거의 데이터가 미래에 영향을 줄 수 있는 RNN 알고리즘중 LSTM을 사용해야 한다고 생각했습니다.
 
-## 3.6 결과
+## 3.7 결과
 ![image](https://user-images.githubusercontent.com/94778681/151298775-5ae4b33b-055a-404e-9980-a2ebafbbddc6.png)
 ![image](https://user-images.githubusercontent.com/94778681/151298848-a32a994c-b7a3-4f48-a578-af00e9dcbee9.png)
 ![비트코인 1](https://user-images.githubusercontent.com/94778681/151320605-3c8277f4-7010-420c-8373-4d6bf977580c.PNG)
@@ -100,7 +110,7 @@ loss가 거의 0에 근접한 좋은 학습모델임을 확인할 수 있습니�
 과거 30분간의 시세 데이터를 통해 다음 1분의 종가를 예측했을 때 상당히 유사함을 확인할 수 있습니다.  
  
 
-## 3.7 보완해야 할 점
+## 3.8 보완해야 할 점
 정규화 과정에서 이상치가 있는지 확인하는 과정을 추가해 이상치를 제거해야 함  
 학습 결과와 테스트 예측치가 너무 이상적으로 부합하는 이유를 찾지 못했음
 ***
@@ -126,6 +136,14 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 등장 단어 빈도수를 기반으로 한 감성 점수화  
 리뷰 워드클라우드화 및 모델별 점수 
 
+## 4.5 담당업무
+데이터 크롤링  
+데이터 전처리
+감성사전 제작
+점수화  
+시각화  
+발표자료 제작
+
 ## 4.5 결과 
 <img src="https://user-images.githubusercontent.com/94778681/151299047-96308dad-5cb6-4d7a-9e81-e01ebd67b191.png" width="600" height="700"/>
 <img src="https://user-images.githubusercontent.com/94778681/151299068-d8030ed7-5cfa-4e48-ad7f-7f26f3739019.png" width="600" height="700"/>
@@ -133,7 +151,9 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 
 리뷰 단어 워드클라우드를 통해 저희가 추출한 감성사전의 키워드가 많이 등장함을 확인할 수 있었습니다.  
 단어별 빈도수를 통해 각 키워드 별 가중치를 부여하고 이에 따라 모델별 점수화를 통해 청소기 구매자의 구매 판단에 도움을 줄 수 있음을 확인할 수 있습니다.  
-선호하는 제조사가 있다면 제조사별 점수 또한 시각화하여 도움을 줄 수 있습니다.  
+선호하는 제조사가 있다면 제조사별 점수 또한 시각화하여 도움을 줄 수 있습니다. 
+
+
 ## 4.6 보완해야 할 점
 자연어 처리 라이브러리를 사용했을 때 너무 오랜 시간이 걸려 데이터 양을 크게 하지 못한 점  
 협업 도구(GitHub, Colab) 의 사용 방법을 익혀 불필요한 시간 낭비를 줄여야 함
