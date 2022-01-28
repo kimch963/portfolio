@@ -94,7 +94,7 @@ https://github.com/kimch963/portfolio/blob/main/bitcoin_LSTM.ipynb
 학습된 신경망을 활용해 다음 1분의 종가 예측
 
 ## 3.5 담당업무
-30분 간의 데이터로 미래 종가 예측
+30분 간의 데이터로 미래 종가 예측  
 시각화
 
 ## 3.6 LSTM을 사용한 이유
@@ -138,13 +138,13 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 
 ## 4.5 담당업무
 데이터 크롤링  
-데이터 전처리
-감성사전 제작
+데이터 전처리  
+감성사전 제작  
 점수화  
 시각화  
 발표자료 제작
 
-## 4.5 결과 
+## 4.6 결과 
 <img src="https://user-images.githubusercontent.com/94778681/151299047-96308dad-5cb6-4d7a-9e81-e01ebd67b191.png" width="600" height="700"/>
 <img src="https://user-images.githubusercontent.com/94778681/151299068-d8030ed7-5cfa-4e48-ad7f-7f26f3739019.png" width="600" height="700"/>
 <img src="https://user-images.githubusercontent.com/94778681/151299098-adcfca22-69e6-4f7e-8fba-6915ef84203c.png" width="600" height="700"/>
@@ -154,6 +154,6 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 선호하는 제조사가 있다면 제조사별 점수 또한 시각화하여 도움을 줄 수 있습니다. 
 
 
-## 4.6 보완해야 할 점
+## 4.7 보완해야 할 점
 자연어 처리 라이브러리를 사용했을 때 너무 오랜 시간이 걸려 데이터 양을 크게 하지 못한 점  
 협업 도구(GitHub, Colab) 의 사용 방법을 익혀 불필요한 시간 낭비를 줄여야 함
