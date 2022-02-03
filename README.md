@@ -1,5 +1,5 @@
 # Introduction
-이름: 김찬희
+이름: 김찬희  
 이메일: kimch963@gmail.com
 # Education 
 상산고등학교(2011.03 ~ 2014.02)  
