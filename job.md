@@ -22,6 +22,9 @@ IT 팀 및 경영진과 협업하여 업계 요구사항을 해결하는 데이�
 데이터 관리 시스템의 성능을 지속적으로 모니터링, 조정 및 보고한다.  
 데이터 마이닝, UML, ETL도구, 데이터 모델링 도구, 예측 모델링, 개발 환경 소프트웨어, 기업 애플리캐이션 통합 소프트웨어  
 
+3. Data Engineer
+Data engineers work in a variety of settings to build systems that collect, manage, and convert raw data into usable information for data scientists and business analysts to interpret. Their ultimate goal is to make data accessible so that organizations can use it to evaluate and optimize their performance.
+
 ## My job  
 Data Scientist
 
