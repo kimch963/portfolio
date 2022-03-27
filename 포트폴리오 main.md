@@ -179,7 +179,7 @@ Jupyterlab, python 3.8, Numpy, Scikit-learn, BeautifulSoup, Konlpy, Github, PyQt
 https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_processing.ipynb
 
 ## 5.4 구현 기능
-리뷰 분석을 통한 감성분석  
+문장 유사도 분석을 통한 
 등장 단어 빈도수를 기반으로 한 감성 점수화  
 리뷰 워드클라우드화 및 모델별 점수 
 
@@ -191,15 +191,15 @@ SBERT 모델 설계
 팀 일정 관리  
 
 ## 5.6 결과 
-<img src="https://user-images.githubusercontent.com/94778681/151299047-96308dad-5cb6-4d7a-9e81-e01ebd67b191.png" width="600" height="700"/>
-<img src="https://user-images.githubusercontent.com/94778681/151299068-d8030ed7-5cfa-4e48-ad7f-7f26f3739019.png" width="600" height="700"/>
-<img src="https://user-images.githubusercontent.com/94778681/151299098-adcfca22-69e6-4f7e-8fba-6915ef84203c.png" width="600" height="700"/>
+![image](https://user-images.githubusercontent.com/94778681/160285446-425ff3a7-99ad-4204-80c7-bb29cfdfa2dc.png)  
+![image](https://user-images.githubusercontent.com/94778681/160285669-d16c33b5-5883-4666-8edd-6be1a019af7f.png)
 
-리뷰 단어 워드클라우드를 통해 저희가 추출한 감성사전의 키워드가 많이 등장함을 확인할 수 있었습니다.  
-단어별 빈도수를 통해 각 키워드 별 가중치를 부여하고 이에 따라 모델별 점수화를 통해 청소기 구매자의 구매 판단에 도움을 줄 수 있음을 확인할 수 있습니다.  
-선호하는 제조사가 있다면 제조사별 점수 또한 시각화하여 도움을 줄 수 있습니다. 
+필요한 문장 검색을 통해 조문 별로 유사도 상위 5개의 조문을 검색할 수 있습니다.  
+키워드, 문장 별 검색 모두가 가능합니다.
 
 
 ## 5.7 보완해야 할 점
-자연어 처리 라이브러리를 사용했을 때 너무 오랜 시간이 걸려 데이터 양을 크게 하지 못한 점  
-협업 도구(GitHub, Colab) 의 사용 방법을 익혀 불필요한 시간 낭비를 줄여야 함
+형태소 선정 부분에서 mecab을 단어 사전까지 수정해 사용해 보지 못한 점  
+SBERT 한국어 모델을 다양하게 사용해 보지 못했고, 파인 튜닝 방법이 각각 달라서 팀만의 파인 튜닝을 해보지 못한 점  
+PyQt 시각화 결정을 나중에 시작하여 시간에 쫒겨 완성한 점
+
