@@ -167,12 +167,12 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 Jupyterlab, python 3.8, Numpy, Scikit-learn, BeautifulSoup, Konlpy, Github, PyQt, TF-IDF, SBERT
 
 ## 5.2 개발 일정
-22.2.14 ~ 22.2.19 데이터 크롤링  
-22.2.20 ~ 22.2.26 데이터 전처리  
-22.2.27 ~ 22.3.5 데이터 전처리  
-
-22.1.12 감성사전 제작 및 감성분석  
-22.1.13 에러 해결, 점수화 및 시각화  
+22.2.14 ~ 22.2.19 기획  
+22.2.20 ~ 22.2.26 데이터 수집   
+22.2.27 ~ 22.3.5 데이터 전처리   
+22.2.20~.3.12 모델, 형태소 분석 테스트
+22.3.13 ~ 22.3.19 데이터 전처리  
+22.3.20 ~ 22.3.24 전처리  
 
 ## 5.3 코드
 https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_processing.ipynb
