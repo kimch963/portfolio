@@ -157,3 +157,49 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 ## 4.7 보완해야 할 점
 자연어 처리 라이브러리를 사용했을 때 너무 오랜 시간이 걸려 데이터 양을 크게 하지 못한 점  
 협업 도구(GitHub, Colab) 의 사용 방법을 익혀 불필요한 시간 낭비를 줄여야 함
+
+
+# 5. 자연어 처리를 이용한 법조문 조회 프로그램 구현
+![image](https://user-images.githubusercontent.com/94778681/160268948-1d3023d9-732d-4589-ad3b-5c8fdd954216.png)
+
+
+## 5.1 사용 기술
+Jupyterlab, python 3.8, Numpy, Scikit-learn, BeautifulSoup, Konlpy, Github, PyQt, TF-IDF, SBERT
+
+## 5.2 개발 일정
+22.2.14 ~ 22.2.19 데이터 크롤링  
+22.2.20 ~ 22.2.26 데이터 전처리  
+22.2.27 ~ 22.3.5 데이터 전처리  
+
+22.1.12 감성사전 제작 및 감성분석  
+22.1.13 에러 해결, 점수화 및 시각화  
+
+## 5.3 코드
+https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_processing.ipynb
+
+## 5.4 구현 기능
+리뷰 분석을 통한 감성분석  
+등장 단어 빈도수를 기반으로 한 감성 점수화  
+리뷰 워드클라우드화 및 모델별 점수 
+
+## 5.5 담당업무
+데이터 크롤링  
+데이터 전처리  
+감성사전 제작  
+점수화  
+시각화  
+발표자료 제작
+
+## 5.6 결과 
+<img src="https://user-images.githubusercontent.com/94778681/151299047-96308dad-5cb6-4d7a-9e81-e01ebd67b191.png" width="600" height="700"/>
+<img src="https://user-images.githubusercontent.com/94778681/151299068-d8030ed7-5cfa-4e48-ad7f-7f26f3739019.png" width="600" height="700"/>
+<img src="https://user-images.githubusercontent.com/94778681/151299098-adcfca22-69e6-4f7e-8fba-6915ef84203c.png" width="600" height="700"/>
+
+리뷰 단어 워드클라우드를 통해 저희가 추출한 감성사전의 키워드가 많이 등장함을 확인할 수 있었습니다.  
+단어별 빈도수를 통해 각 키워드 별 가중치를 부여하고 이에 따라 모델별 점수화를 통해 청소기 구매자의 구매 판단에 도움을 줄 수 있음을 확인할 수 있습니다.  
+선호하는 제조사가 있다면 제조사별 점수 또한 시각화하여 도움을 줄 수 있습니다. 
+
+
+## 5.7 보완해야 할 점
+자연어 처리 라이브러리를 사용했을 때 너무 오랜 시간이 걸려 데이터 양을 크게 하지 못한 점  
+협업 도구(GitHub, Colab) 의 사용 방법을 익혀 불필요한 시간 낭비를 줄여야 함
