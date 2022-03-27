@@ -162,6 +162,9 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 # 5. 자연어 처리를 이용한 법조문 조회 프로그램 구현
 ![image](https://user-images.githubusercontent.com/94778681/160268948-1d3023d9-732d-4589-ad3b-5c8fdd954216.png)
 
+***
+---
+
 
 ## 5.1 사용 기술
 Jupyterlab, python 3.8, Numpy, Scikit-learn, BeautifulSoup, Konlpy, Github, PyQt, TF-IDF, SBERT
@@ -195,6 +198,7 @@ SBERT 모델 설계
 ![image](https://user-images.githubusercontent.com/94778681/160285669-d16c33b5-5883-4666-8edd-6be1a019af7f.png)
 
 필요한 문장 검색을 통해 조문 별로 유사도 상위 5개의 조문을 검색할 수 있습니다.  
+오타를 포함한 문장으로도 정확한 검색이 가능합니다.
 키워드, 문장 별 검색 모두가 가능합니다.
 
 
