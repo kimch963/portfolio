@@ -170,9 +170,10 @@ Jupyterlab, python 3.8, Numpy, Scikit-learn, BeautifulSoup, Konlpy, Github, PyQt
 22.2.14 ~ 22.2.19 기획  
 22.2.20 ~ 22.2.26 데이터 수집   
 22.2.27 ~ 22.3.5 데이터 전처리   
-22.2.20~.3.12 모델, 형태소 분석 테스트
-22.3.13 ~ 22.3.19 데이터 전처리  
-22.3.20 ~ 22.3.24 전처리  
+22.2.20 ~.3.12 모델, 형태소 분석 테스트  
+22.2.27 ~ 22.3.19 모델, 형태소 분석 선정    
+22.3.6 ~ 22.3.24 시각화  
+22.3.13 ~ 22.3.24 마무리  
 
 ## 5.3 코드
 https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_processing.ipynb
@@ -183,12 +184,11 @@ https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_
 리뷰 워드클라우드화 및 모델별 점수 
 
 ## 5.5 담당업무
-데이터 크롤링  
+데이터 수집    
 데이터 전처리  
-감성사전 제작  
-점수화  
-시각화  
-발표자료 제작
+SBERT 모델 설계    
+모델 적합성 판단    
+팀 일정 관리  
 
 ## 5.6 결과 
 <img src="https://user-images.githubusercontent.com/94778681/151299047-96308dad-5cb6-4d7a-9e81-e01ebd67b191.png" width="600" height="700"/>
