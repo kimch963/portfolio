@@ -179,7 +179,7 @@ Jupyterlab, python 3.8, Numpy, Scikit-learn, BeautifulSoup, Konlpy, Github, PyQt
 22.3.13 ~ 22.3.24 마무리  
 
 ## 5.3 코드
-https://github.com/kimch963/portfolio/blob/main/vacuum_cleaner_natural_language_processing.ipynb
+https://github.com/Growing3Team/Law_NLP_Project/blob/master/law_similarity_project.ipynb
 
 ## 5.4 구현 기능
 문장 유사도 분석을 통한 
